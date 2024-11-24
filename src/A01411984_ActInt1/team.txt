@@ -1,0 +1,15 @@
+Josue Eduardo Sosa Martinez       A01411984
+En la Parte 1 que realice del proyecto, nos enfocamos en verificar si alguno de los códigos maliciosos conocidos está presente en las transmisiones de datos. Para ello, utilizamos la función contains, que revisa si una cadena (la transmisión) contiene otra cadena (el código malicioso) dentro de su secuencia de bits. Si el código malicioso es encontrado, mostramos el resultado como "true" junto con la posición en la que aparece, usando la función find para localizar el índice de inicio del código dentro de la transmisión. Si no se encuentra, simplemente se muestra "false". Esto nos permite detectar posibles intervenciones maliciosas en tiempo real en las dos transmisiones de datos.
+
+Alba Suárez Tapia                 A01764346
+En la parte 2 del código, me encargué de implementar la función findLongestPalindrome, que busca el palíndromo más largo dentro de los archivos de transmisión. La función utiliza programación dinámica para detectar palíndromos en una cadena de texto. Inicialmente, marca todos los caracteres individuales como palíndromos, luego verifica pares de caracteres consecutivos para encontrar palíndromos de longitud 2. Posteriormente, analiza subcadenas más largas comprobando si los extremos coinciden y si la subcadena interior también es un palíndromo, utilizando una tabla para almacenar estos resultados.
+
+Este proceso me permitió identificar eficientemente el palíndromo más largo en cada archivo de transmisión, devolviendo las posiciones de inicio y fin del palíndromo junto con la cadena correspondiente.
+
+Alejandro Charles Gonzalez        A00835903
+En la parte 3 que fue en la que trabajé, el objetivo era encontrar la subcadena común más larga entre dos transmisiones. Este tipo de problema es importante, especialmente cuando se trata de comparar secuencias de texto o datos para identificar patrones similares. En el contexto de seguridad, encontrar estas subcadenas podría ayudarnos a detectar código malicioso que se repite en distintas transmisiones.
+
+Al trabajar en esta sección, tuve que asegurarme de que el programa no solo identificara correctamente las posiciones de la subcadena, sino también mostrarla como parte del resultado. Aunque las posiciones eran correctas en el primer intento, me di cuenta de que faltaba incluir la subcadena en la salida, lo que era un detalle importante que necesitaba corregir.
+
+Este ejercicio me hizo ver lo crucial que es la claridad en los resultados del programa. Al corregirlo, me aseguré de que la solución fuera más completa, mostrando tanto las posiciones como la subcadena, lo cual es fundamental en contextos de análisis de seguridad, donde cada detalle cuenta.
+
